@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>StockController.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">stock-maintance-application</a> &gt; <a href="index.source.html" class="el_package">com.nagasumali.stocks.controller</a> &gt; <span class="el_source">StockController.java</span></div><h1>StockController.java</h1><pre class="source lang-java linenums">package com.nagasumali.stocks.controller;
+
+import com.nagasumali.stocks.controller.api.*;
+import com.nagasumali.stocks.controller.converter.StockConverter;
+import com.nagasumali.stocks.controller.converter.StockDtoConverter;
+import com.nagasumali.stocks.domain.Stock;
+import com.nagasumali.stocks.service.StockService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import static com.google.common.base.Preconditions.checkNotNull;
+
+/**
+ * Provides the operations over stocks.
+ */
+@RestController
+public class StockController {
+<span class="fc" id="L21">    private static final Logger LOGGER = LoggerFactory.getLogger(StockController.class);</span>
+
+    private final StockService stockService;
+    private final StockDtoConverter stockDtoConverter;
+    private final StockConverter stockConverter;
+
+    @Autowired
+<span class="fc" id="L28">    public StockController(StockService stockService, StockDtoConverter stockDtoConverter, StockConverter stockConverter) {</span>
+<span class="fc" id="L29">        this.stockService = stockService;</span>
+<span class="fc" id="L30">        this.stockDtoConverter = stockDtoConverter;</span>
+<span class="fc" id="L31">        this.stockConverter = stockConverter;</span>
+<span class="fc" id="L32">    }</span>
+
+    @RequestMapping(value = &quot;/stock&quot;, method = RequestMethod.POST)
+    public ResponseEntity&lt;String&gt; postStock(@RequestBody StockDto stockDto) {
+<span class="fc" id="L36">        LOGGER.debug(&quot;received post stock request with data {}&quot;, stockDto);</span>
+
+        try {
+<span class="fc" id="L39">            validateStockDto(stockDto);</span>
+<span class="fc" id="L40">        } catch (Exception e) {</span>
+<span class="fc" id="L41">            LOGGER.error(&quot;Mandatory field not received&quot;, e);</span>
+<span class="fc" id="L42">            return ResponseEntity.badRequest().body(&quot;mandatory field not received&quot;);</span>
+<span class="fc" id="L43">        }</span>
+
+<span class="fc" id="L45">        Stock stock = stockDtoConverter.apply(stockDto);</span>
+<span class="fc" id="L46">        stockService.recordStock(stock);</span>
+<span class="fc" id="L47">        return ResponseEntity.ok(&quot;Stock added with success&quot;);</span>
+    }
+
+    private void validateStockDto(StockDto stockDto) {
+<span class="fc" id="L51">        checkNotNull(stockDto.getSymbol());</span>
+<span class="fc" id="L52">        checkNotNull(stockDto.getType());</span>
+<span class="fc" id="L53">    }</span>
+
+    @RequestMapping(value = &quot;/stocks&quot;, method = RequestMethod.GET)
+    public StockDto getStock(@RequestParam String symbol) {
+<span class="fc" id="L57">        LOGGER.debug(&quot;received getstock request for symbol {}&quot;, symbol);</span>
+
+<span class="fc" id="L59">        Stock stock = stockService.retrieveStock(symbol);</span>
+<span class="fc" id="L60">        return stockConverter.apply(stock);</span>
+    }
+
+    @RequestMapping(value = &quot;/stocks/dividend&quot;, method = RequestMethod.GET)
+    public DividendYieldDto getDividend(@RequestParam String symbol) {
+<span class="fc" id="L65">        LOGGER.debug(&quot;received get dividend request for symbol {}&quot;, symbol);</span>
+
+<span class="fc" id="L67">        Double dividendYield = stockService.calculateDividendYield(symbol);</span>
+<span class="fc" id="L68">        DividendYieldDto dto = new DividendYieldDto();</span>
+<span class="fc" id="L69">        dto.setStockSymbol(symbol);</span>
+<span class="fc" id="L70">        dto.setDividend(dividendYield);</span>
+<span class="fc" id="L71">        return dto;</span>
+    }
+
+    @RequestMapping(value = &quot;/stocks/peratio&quot;, method = RequestMethod.GET)
+    public PERatioDto getPERatio(@RequestParam String symbol) {
+<span class="fc" id="L76">        LOGGER.debug(&quot;received get PE ratio request for symbol {}&quot;, symbol);</span>
+
+<span class="fc" id="L78">        Double peRatio = stockService.calculatePERatio(symbol);</span>
+<span class="fc" id="L79">        PERatioDto dto = new PERatioDto();</span>
+<span class="fc" id="L80">        dto.setStockSymbol(symbol);</span>
+<span class="fc" id="L81">        dto.setPeRatio(peRatio);</span>
+<span class="fc" id="L82">        return dto;</span>
+    }
+
+    @RequestMapping(value = &quot;/stocks/price&quot;, method = RequestMethod.GET)
+    public StockPriceDto getStockPrice(@RequestParam String symbol) {
+<span class="fc" id="L87">        LOGGER.debug(&quot;received get stock price request for symbol {}&quot;, symbol);</span>
+
+<span class="fc" id="L89">        Double stockPrice = stockService.calculateStockPrice(symbol);</span>
+<span class="fc" id="L90">        StockPriceDto dto = new StockPriceDto();</span>
+<span class="fc" id="L91">        dto.setStockSymbol(symbol);</span>
+<span class="fc" id="L92">        dto.setStockPrice(stockPrice);</span>
+<span class="fc" id="L93">        return dto;</span>
+    }
+
+    @RequestMapping(value = &quot;/stocks/gbceasi&quot;, method = RequestMethod.GET)
+    public AllSharesIndexDto getGBCEAllSharesIndex() {
+<span class="fc" id="L98">        LOGGER.debug(&quot;received get GBCE all shares index request&quot;);</span>
+
+<span class="fc" id="L100">        Double allSharesIndex = stockService.calculateGBCEAllSharesIndex();</span>
+<span class="fc" id="L101">        AllSharesIndexDto dto = new AllSharesIndexDto();</span>
+<span class="fc" id="L102">        dto.setAllSharesIndex(allSharesIndex);</span>
+<span class="fc" id="L103">        return dto;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>

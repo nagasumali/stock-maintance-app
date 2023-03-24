@@ -1,0 +1,17 @@
+com\nagasumali\stocks\domain\TradeTest.class
+com\nagasumali\stocks\makers\StockDtoMaker.class
+com\nagasumali\stocks\domain\StockTest.class
+com\nagasumali\stocks\controller\StockControllerTest.class
+com\nagasumali\stocks\makers\TradeDtoMaker.class
+com\nagasumali\stocks\spec\TradeSpecificationTest.class
+com\nagasumali\stocks\controller\converter\StockConverterTest.class
+com\nagasumali\stocks\spec\StockSpecificationTest.class
+com\nagasumali\stocks\controller\converter\StockDtoConverterTest.class
+com\nagasumali\stocks\repository\LocalTradeRepositoryTest.class
+com\nagasumali\stocks\controller\TradeControllerTest.class
+com\nagasumali\stocks\makers\TradeMaker.class
+com\nagasumali\stocks\controller\converter\TradeDtoConverterTest.class
+com\nagasumali\stocks\service\StockServiceImplTest.class
+com\nagasumali\stocks\repository\LocalStockRepositoryTest.class
+com\nagasumali\stocks\makers\StockMaker.class
+com\nagasumali\stocks\service\TradeServiceImplTest.class

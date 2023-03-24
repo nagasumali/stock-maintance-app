@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="60" passed="60">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="3575" started-at="2023-03-24T20:25:36Z" finished-at="2023-03-24T20:25:40Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="3575" started-at="2023-03-24T20:25:36Z" finished-at="2023-03-24T20:25:40Z">
+      <class name="com.nagasumali.stocks.spec.TradeSpecificationTest">
+        <test-method status="PASS" signature="shouldReturnTrueIfDateIntervalIsZero()[pri:0, instance:com.nagasumali.stocks.spec.TradeSpecificationTest@35c09b94]" name="shouldReturnTrueIfDateIntervalIsZero" duration-ms="0" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldReturnTrueIfDateIntervalIsZero -->
+        <test-method status="PASS" signature="shouldValidateDateInterval()[pri:0, instance:com.nagasumali.stocks.spec.TradeSpecificationTest@35c09b94]" name="shouldValidateDateInterval" duration-ms="0" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldValidateDateInterval -->
+        <test-method status="PASS" signature="shouldValidateStockSymbol()[pri:0, instance:com.nagasumali.stocks.spec.TradeSpecificationTest@35c09b94]" name="shouldValidateStockSymbol" duration-ms="1" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldValidateStockSymbol -->
+      </class> <!-- com.nagasumali.stocks.spec.TradeSpecificationTest -->
+      <class name="com.nagasumali.stocks.repository.LocalTradeRepositoryTest">
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.repository.LocalTradeRepositoryTest@2e3a5237]" name="setupScenario" is-config="true" duration-ms="4" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldDeleteFromRepository()[pri:0, instance:com.nagasumali.stocks.repository.LocalTradeRepositoryTest@2e3a5237]" name="shouldDeleteFromRepository" duration-ms="1" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldDeleteFromRepository -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.repository.LocalTradeRepositoryTest@2e3a5237]" name="setupScenario" is-config="true" duration-ms="0" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldFindAllInRepositoryFromSpec()[pri:0, instance:com.nagasumali.stocks.repository.LocalTradeRepositoryTest@2e3a5237]" name="shouldFindAllInRepositoryFromSpec" duration-ms="4" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldFindAllInRepositoryFromSpec -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.repository.LocalTradeRepositoryTest@2e3a5237]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldFindOneInRepositoryFromSpec()[pri:0, instance:com.nagasumali.stocks.repository.LocalTradeRepositoryTest@2e3a5237]" name="shouldFindOneInRepositoryFromSpec" duration-ms="5" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldFindOneInRepositoryFromSpec -->
+        <test-method status="PASS" signature="shouldSaveDataToRepository()[pri:0, instance:com.nagasumali.stocks.repository.LocalTradeRepositoryTest@2e3a5237]" name="shouldSaveDataToRepository" duration-ms="1" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSaveDataToRepository -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.repository.LocalTradeRepositoryTest@2e3a5237]" name="setupScenario" is-config="true" duration-ms="0" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+      </class> <!-- com.nagasumali.stocks.repository.LocalTradeRepositoryTest -->
+      <class name="com.nagasumali.stocks.controller.converter.TradeDtoConverterTest">
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.converter.TradeDtoConverterTest@72458efc]" name="setupScenario" is-config="true" duration-ms="3" started-at="2023-03-24T16:25:37Z" finished-at="2023-03-24T16:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldConvert()[pri:0, instance:com.nagasumali.stocks.controller.converter.TradeDtoConverterTest@72458efc]" name="shouldConvert" duration-ms="191" started-at="2023-03-24T16:25:37Z" finished-at="2023-03-24T16:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldConvert -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.converter.TradeDtoConverterTest@72458efc]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:37Z" finished-at="2023-03-24T16:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldThrowExceptionWhenConversionFails()[pri:0, instance:com.nagasumali.stocks.controller.converter.TradeDtoConverterTest@72458efc]" name="shouldThrowExceptionWhenConversionFails" duration-ms="1" started-at="2023-03-24T16:25:37Z" finished-at="2023-03-24T16:25:37Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[No enum constant com.nagasumali.stocks.domain.TradeIndicator.XPTO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: No enum constant com.nagasumali.stocks.domain.TradeIndicator.XPTO
+	at java.lang.Enum.valueOf(Enum.java:238)
+	at com.nagasumali.stocks.domain.TradeIndicator.valueOf(TradeIndicator.java:6)
+	at com.nagasumali.stocks.controller.converter.TradeDtoConverter.apply(TradeDtoConverter.java:22)
+	at com.nagasumali.stocks.controller.converter.TradeDtoConverterTest.shouldThrowExceptionWhenConversionFails(TradeDtoConverterTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowExceptionWhenConversionFails -->
+      </class> <!-- com.nagasumali.stocks.controller.converter.TradeDtoConverterTest -->
+      <class name="com.nagasumali.stocks.domain.StockTest">
+        <test-method status="PASS" signature="shouldCalculateCommonDividendYield()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="shouldCalculateCommonDividendYield" duration-ms="0" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCalculateCommonDividendYield -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="setupScenario" is-config="true" duration-ms="0" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldCalculatePERatio()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="shouldCalculatePERatio" duration-ms="165" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCalculatePERatio -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="setupScenario" is-config="true" duration-ms="3" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldCalculatePreferredDividendYield()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="shouldCalculatePreferredDividendYield" duration-ms="0" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCalculatePreferredDividendYield -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="setupScenario" is-config="true" duration-ms="0" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldFailWithEmptySymbol()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="shouldFailWithEmptySymbol" duration-ms="0" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[stock symbol is mandatory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: stock symbol is mandatory
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:122)
+	at com.nagasumali.stocks.domain.Stock.<init>(Stock.java:24)
+	at com.nagasumali.stocks.makers.StockMaker.lambda$static$0(StockMaker.java:24)
+	at com.natpryce.makeiteasy.Maker.make(Maker.java:53)
+	at com.natpryce.makeiteasy.Maker.value(Maker.java:58)
+	at com.natpryce.makeiteasy.MakeItEasy.make(MakeItEasy.java:52)
+	at com.nagasumali.stocks.domain.StockTest.shouldFailWithEmptySymbol(StockTest.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldFailWithEmptySymbol -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="setupScenario" is-config="true" duration-ms="0" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldFailWithFixedDividendGreaterThanUnit()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="shouldFailWithFixedDividendGreaterThanUnit" duration-ms="1" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[fixed dividend should be between 0 and 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: fixed dividend should be between 0 and 1
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:122)
+	at com.nagasumali.stocks.domain.Stock.<init>(Stock.java:27)
+	at com.nagasumali.stocks.makers.StockMaker.lambda$static$0(StockMaker.java:24)
+	at com.natpryce.makeiteasy.Maker.make(Maker.java:53)
+	at com.natpryce.makeiteasy.Maker.value(Maker.java:58)
+	at com.natpryce.makeiteasy.MakeItEasy.make(MakeItEasy.java:52)
+	at com.nagasumali.stocks.domain.StockTest.shouldFailWithFixedDividendGreaterThanUnit(StockTest.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldFailWithFixedDividendGreaterThanUnit -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldFailWithNegativeFixedDividend()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="shouldFailWithNegativeFixedDividend" duration-ms="10" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[fixed dividend should be between 0 and 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: fixed dividend should be between 0 and 1
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:122)
+	at com.nagasumali.stocks.domain.Stock.<init>(Stock.java:27)
+	at com.nagasumali.stocks.makers.StockMaker.lambda$static$0(StockMaker.java:24)
+	at com.natpryce.makeiteasy.Maker.make(Maker.java:53)
+	at com.natpryce.makeiteasy.Maker.value(Maker.java:58)
+	at com.natpryce.makeiteasy.MakeItEasy.make(MakeItEasy.java:52)
+	at com.nagasumali.stocks.domain.StockTest.shouldFailWithNegativeFixedDividend(StockTest.java:103)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldFailWithNegativeFixedDividend -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="setupScenario" is-config="true" duration-ms="2" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldFailWithNegativeLastDividend()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="shouldFailWithNegativeLastDividend" duration-ms="1" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[last dividend should be >=0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: last dividend should be >=0
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:122)
+	at com.nagasumali.stocks.domain.Stock.<init>(Stock.java:26)
+	at com.nagasumali.stocks.makers.StockMaker.lambda$static$0(StockMaker.java:24)
+	at com.natpryce.makeiteasy.Maker.make(Maker.java:53)
+	at com.natpryce.makeiteasy.Maker.value(Maker.java:58)
+	at com.natpryce.makeiteasy.MakeItEasy.make(MakeItEasy.java:52)
+	at com.nagasumali.stocks.domain.StockTest.shouldFailWithNegativeLastDividend(StockTest.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldFailWithNegativeLastDividend -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldFailWithNegativeParValue()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="shouldFailWithNegativeParValue" duration-ms="0" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[par value should be >=0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: par value should be >=0
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:122)
+	at com.nagasumali.stocks.domain.Stock.<init>(Stock.java:28)
+	at com.nagasumali.stocks.makers.StockMaker.lambda$static$0(StockMaker.java:24)
+	at com.natpryce.makeiteasy.Maker.make(Maker.java:53)
+	at com.natpryce.makeiteasy.Maker.value(Maker.java:58)
+	at com.natpryce.makeiteasy.MakeItEasy.make(MakeItEasy.java:52)
+	at com.nagasumali.stocks.domain.StockTest.shouldFailWithNegativeParValue(StockTest.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldFailWithNegativeParValue -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="setupScenario" is-config="true" duration-ms="0" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldFailWithNegativeTickerPrice()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="shouldFailWithNegativeTickerPrice" duration-ms="1" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[ticker price should be >=0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: ticker price should be >=0
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:122)
+	at com.nagasumali.stocks.domain.Stock.<init>(Stock.java:29)
+	at com.nagasumali.stocks.makers.StockMaker.lambda$static$0(StockMaker.java:24)
+	at com.natpryce.makeiteasy.Maker.make(Maker.java:53)
+	at com.natpryce.makeiteasy.Maker.value(Maker.java:58)
+	at com.natpryce.makeiteasy.MakeItEasy.make(MakeItEasy.java:52)
+	at com.nagasumali.stocks.domain.StockTest.shouldFailWithNegativeTickerPrice(StockTest.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldFailWithNegativeTickerPrice -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="setupScenario" is-config="true" duration-ms="0" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldFailWithNullSymbol()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="shouldFailWithNullSymbol" duration-ms="1" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[stock symbol is mandatory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: stock symbol is mandatory
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:122)
+	at com.nagasumali.stocks.domain.Stock.<init>(Stock.java:24)
+	at com.nagasumali.stocks.makers.StockMaker.lambda$static$0(StockMaker.java:24)
+	at com.natpryce.makeiteasy.Maker.make(Maker.java:53)
+	at com.natpryce.makeiteasy.Maker.value(Maker.java:58)
+	at com.natpryce.makeiteasy.MakeItEasy.make(MakeItEasy.java:52)
+	at com.nagasumali.stocks.domain.StockTest.shouldFailWithNullSymbol(StockTest.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldFailWithNullSymbol -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="setupScenario" is-config="true" duration-ms="0" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldFailWithNullType()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="shouldFailWithNullType" duration-ms="1" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[stock type is mandatory]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: stock type is mandatory
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:122)
+	at com.nagasumali.stocks.domain.Stock.<init>(Stock.java:25)
+	at com.nagasumali.stocks.makers.StockMaker.lambda$static$0(StockMaker.java:24)
+	at com.natpryce.makeiteasy.Maker.make(Maker.java:53)
+	at com.natpryce.makeiteasy.Maker.value(Maker.java:58)
+	at com.natpryce.makeiteasy.MakeItEasy.make(MakeItEasy.java:52)
+	at com.nagasumali.stocks.domain.StockTest.shouldFailWithNullType(StockTest.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldFailWithNullType -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="setupScenario" is-config="true" duration-ms="5" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldGetState()[pri:0, instance:com.nagasumali.stocks.domain.StockTest@6a714237]" name="shouldGetState" duration-ms="1" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldGetState -->
+      </class> <!-- com.nagasumali.stocks.domain.StockTest -->
+      <class name="com.nagasumali.stocks.controller.TradeControllerTest">
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.TradeControllerTest@349d0836]" name="setupScenario" is-config="true" duration-ms="74" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldPostTrade()[pri:0, instance:com.nagasumali.stocks.controller.TradeControllerTest@349d0836]" name="shouldPostTrade" duration-ms="290" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldPostTrade -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.TradeControllerTest@349d0836]" name="setupScenario" is-config="true" duration-ms="2" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent()[pri:0, instance:com.nagasumali.stocks.controller.TradeControllerTest@349d0836]" name="shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent" duration-ms="3" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent -->
+      </class> <!-- com.nagasumali.stocks.controller.TradeControllerTest -->
+      <class name="com.nagasumali.stocks.service.TradeServiceImplTest">
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.service.TradeServiceImplTest@6ac97b84]" name="setupScenario" is-config="true" duration-ms="4" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldRecordStock()[pri:0, instance:com.nagasumali.stocks.service.TradeServiceImplTest@6ac97b84]" name="shouldRecordStock" duration-ms="1" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRecordStock -->
+      </class> <!-- com.nagasumali.stocks.service.TradeServiceImplTest -->
+      <class name="com.nagasumali.stocks.domain.TradeTest">
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.domain.TradeTest@3e134896]" name="setupScenario" is-config="true" duration-ms="0" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldGetState()[pri:0, instance:com.nagasumali.stocks.domain.TradeTest@3e134896]" name="shouldGetState" duration-ms="2" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldGetState -->
+      </class> <!-- com.nagasumali.stocks.domain.TradeTest -->
+      <class name="com.nagasumali.stocks.service.StockServiceImplTest">
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="setupScenario" is-config="true" duration-ms="17" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldCalculateDividend()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="shouldCalculateDividend" duration-ms="14" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCalculateDividend -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="setupScenario" is-config="true" duration-ms="2" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldCalculateGBCEAllSharesIndex()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="shouldCalculateGBCEAllSharesIndex" duration-ms="654" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCalculateGBCEAllSharesIndex -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="setupScenario" is-config="true" duration-ms="2" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldCalculatePERatio()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="shouldCalculatePERatio" duration-ms="1" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCalculatePERatio -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="setupScenario" is-config="true" duration-ms="2" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldCalculateStockPrice()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="shouldCalculateStockPrice" duration-ms="3" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCalculateStockPrice -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldCalculateStockPriceFromPastMinutes()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="shouldCalculateStockPriceFromPastMinutes" duration-ms="38" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldCalculateStockPriceFromPastMinutes -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="setupScenario" is-config="true" duration-ms="3" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldRecordStock()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="shouldRecordStock" duration-ms="4" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldRecordStock -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldThrowExceptionWhenCalculatingDividendAndStockDoesNotExist()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="shouldThrowExceptionWhenCalculatingDividendAndStockDoesNotExist" duration-ms="3" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <exception class="com.nagasumali.stocks.service.ServiceException">
+            <message>
+              <![CDATA[stock not found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.nagasumali.stocks.service.ServiceException: stock not found
+	at com.nagasumali.stocks.service.StockServiceImpl.validateStock(StockServiceImpl.java:98)
+	at com.nagasumali.stocks.service.StockServiceImpl.calculateDividendYield(StockServiceImpl.java:44)
+	at com.nagasumali.stocks.service.StockServiceImplTest.shouldThrowExceptionWhenCalculatingDividendAndStockDoesNotExist(StockServiceImplTest.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.nagasumali.stocks.service.ServiceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowExceptionWhenCalculatingDividendAndStockDoesNotExist -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="setupScenario" is-config="true" duration-ms="0" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldThrowExceptionWhenCalculatingGBCEAsiAndCannotComputePrice()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="shouldThrowExceptionWhenCalculatingGBCEAsiAndCannotComputePrice" duration-ms="3" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <exception class="com.nagasumali.stocks.service.ServiceException">
+            <message>
+              <![CDATA[trades not found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.nagasumali.stocks.service.ServiceException: trades not found
+	at com.nagasumali.stocks.service.StockServiceImpl.calculateStockPriceFromPastMinutes(StockServiceImpl.java:113)
+	at com.nagasumali.stocks.service.StockServiceImpl.lambda$calculateGBCEAllSharesIndex$0(StockServiceImpl.java:70)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1556)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:546)
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.util.stream.DoublePipeline.toArray(DoublePipeline.java:508)
+	at com.nagasumali.stocks.service.StockServiceImpl.calculateGBCEAllSharesIndex(StockServiceImpl.java:72)
+	at com.nagasumali.stocks.service.StockServiceImplTest.shouldThrowExceptionWhenCalculatingGBCEAsiAndCannotComputePrice(StockServiceImplTest.java:159)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.nagasumali.stocks.service.ServiceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowExceptionWhenCalculatingGBCEAsiAndCannotComputePrice -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldThrowExceptionWhenCalculatingGBCEAsiAndNoStocksFound()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="shouldThrowExceptionWhenCalculatingGBCEAsiAndNoStocksFound" duration-ms="2" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <exception class="com.nagasumali.stocks.service.ServiceException">
+            <message>
+              <![CDATA[no stock found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.nagasumali.stocks.service.ServiceException: no stock found
+	at com.nagasumali.stocks.service.StockServiceImpl.calculateGBCEAllSharesIndex(StockServiceImpl.java:65)
+	at com.nagasumali.stocks.service.StockServiceImplTest.shouldThrowExceptionWhenCalculatingGBCEAsiAndNoStocksFound(StockServiceImplTest.java:144)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.nagasumali.stocks.service.ServiceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowExceptionWhenCalculatingGBCEAsiAndNoStocksFound -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldThrowExceptionWhenCalculatingPERatioAndStockDoesNotExist()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="shouldThrowExceptionWhenCalculatingPERatioAndStockDoesNotExist" duration-ms="1" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <exception class="com.nagasumali.stocks.service.ServiceException">
+            <message>
+              <![CDATA[stock not found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.nagasumali.stocks.service.ServiceException: stock not found
+	at com.nagasumali.stocks.service.StockServiceImpl.validateStock(StockServiceImpl.java:98)
+	at com.nagasumali.stocks.service.StockServiceImpl.calculatePERatio(StockServiceImpl.java:50)
+	at com.nagasumali.stocks.service.StockServiceImplTest.shouldThrowExceptionWhenCalculatingPERatioAndStockDoesNotExist(StockServiceImplTest.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.nagasumali.stocks.service.ServiceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowExceptionWhenCalculatingPERatioAndStockDoesNotExist -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="setupScenario" is-config="true" duration-ms="2" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldThrowExceptionWhenCalculatingStockPriceAndNoTradesFound()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="shouldThrowExceptionWhenCalculatingStockPriceAndNoTradesFound" duration-ms="3" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <exception class="com.nagasumali.stocks.service.ServiceException">
+            <message>
+              <![CDATA[trades not found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.nagasumali.stocks.service.ServiceException: trades not found
+	at com.nagasumali.stocks.service.StockServiceImpl.calculateStockPriceFromPastMinutes(StockServiceImpl.java:113)
+	at com.nagasumali.stocks.service.StockServiceImplTest.shouldThrowExceptionWhenCalculatingStockPriceAndNoTradesFound(StockServiceImplTest.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.nagasumali.stocks.service.ServiceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowExceptionWhenCalculatingStockPriceAndNoTradesFound -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldThrowExceptionWhenCalculatingStockPriceAndQuantitySumIsZero()[pri:0, instance:com.nagasumali.stocks.service.StockServiceImplTest@4ebadd3d]" name="shouldThrowExceptionWhenCalculatingStockPriceAndQuantitySumIsZero" duration-ms="2" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <exception class="com.nagasumali.stocks.service.ServiceException">
+            <message>
+              <![CDATA[quantity sum is zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.nagasumali.stocks.service.ServiceException: quantity sum is zero
+	at com.nagasumali.stocks.service.StockServiceImpl.calculateStockPriceFromPastMinutes(StockServiceImpl.java:133)
+	at com.nagasumali.stocks.service.StockServiceImplTest.shouldThrowExceptionWhenCalculatingStockPriceAndQuantitySumIsZero(StockServiceImplTest.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.nagasumali.stocks.service.ServiceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowExceptionWhenCalculatingStockPriceAndQuantitySumIsZero -->
+      </class> <!-- com.nagasumali.stocks.service.StockServiceImplTest -->
+      <class name="com.nagasumali.stocks.controller.StockControllerTest">
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="setupScenario" is-config="true" duration-ms="1018" started-at="2023-03-24T16:25:37Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldGetDividend()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="shouldGetDividend" duration-ms="134" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldGetDividend -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="setupScenario" is-config="true" duration-ms="2" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldGetGBCEAllSharesIndex()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="shouldGetGBCEAllSharesIndex" duration-ms="7" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldGetGBCEAllSharesIndex -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldGetPERatio()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="shouldGetPERatio" duration-ms="4" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldGetPERatio -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldGetStock()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="shouldGetStock" duration-ms="4" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldGetStock -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldGetStockPrice()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="shouldGetStockPrice" duration-ms="4" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldGetStockPrice -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="setupScenario" is-config="true" duration-ms="2" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldPostStock()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="shouldPostStock" duration-ms="73" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldPostStock -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="setupScenario" is-config="true" duration-ms="2" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent" duration-ms="36" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent -->
+        <test-method status="PASS" signature="shouldThrowExceptionWhenGettingAllSharesIndexAndServiceThrowsException()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="shouldThrowExceptionWhenGettingAllSharesIndexAndServiceThrowsException" duration-ms="4" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at com.nagasumali.stocks.controller.StockController.getGBCEAllSharesIndex(StockController.java:100)
+	at com.nagasumali.stocks.controller.StockControllerTest.shouldThrowExceptionWhenGettingAllSharesIndexAndServiceThrowsException(StockControllerTest.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowExceptionWhenGettingAllSharesIndexAndServiceThrowsException -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="setupScenario" is-config="true" duration-ms="0" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldThrowExceptionWhenGettingDividendAndServiceThrowsException()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="shouldThrowExceptionWhenGettingDividendAndServiceThrowsException" duration-ms="1" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at com.nagasumali.stocks.controller.StockController.getDividend(StockController.java:67)
+	at com.nagasumali.stocks.controller.StockControllerTest.shouldThrowExceptionWhenGettingDividendAndServiceThrowsException(StockControllerTest.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowExceptionWhenGettingDividendAndServiceThrowsException -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldThrowExceptionWhenGettingPERatioAndServiceThrowsException()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="shouldThrowExceptionWhenGettingPERatioAndServiceThrowsException" duration-ms="3" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at com.nagasumali.stocks.controller.StockController.getPERatio(StockController.java:78)
+	at com.nagasumali.stocks.controller.StockControllerTest.shouldThrowExceptionWhenGettingPERatioAndServiceThrowsException(StockControllerTest.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowExceptionWhenGettingPERatioAndServiceThrowsException -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldThrowExceptionWhenGettingStockAndConverterServiceThrowsException()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="shouldThrowExceptionWhenGettingStockAndConverterServiceThrowsException" duration-ms="4" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at com.nagasumali.stocks.controller.StockController.getStock(StockController.java:60)
+	at com.nagasumali.stocks.controller.StockControllerTest.shouldThrowExceptionWhenGettingStockAndConverterServiceThrowsException(StockControllerTest.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowExceptionWhenGettingStockAndConverterServiceThrowsException -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldThrowExceptionWhenGettingStockAndServiceThrowsException()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="shouldThrowExceptionWhenGettingStockAndServiceThrowsException" duration-ms="2" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at com.nagasumali.stocks.controller.StockController.getStock(StockController.java:59)
+	at com.nagasumali.stocks.controller.StockControllerTest.shouldThrowExceptionWhenGettingStockAndServiceThrowsException(StockControllerTest.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowExceptionWhenGettingStockAndServiceThrowsException -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldThrowExceptionWhenGettingStockPriceAndServiceThrowsException()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="shouldThrowExceptionWhenGettingStockPriceAndServiceThrowsException" duration-ms="2" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at com.nagasumali.stocks.controller.StockController.getStockPrice(StockController.java:89)
+	at com.nagasumali.stocks.controller.StockControllerTest.shouldThrowExceptionWhenGettingStockPriceAndServiceThrowsException(StockControllerTest.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowExceptionWhenGettingStockPriceAndServiceThrowsException -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldThrowExceptionWhenPostingStockAndConverterThrowsException()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="shouldThrowExceptionWhenPostingStockAndConverterThrowsException" duration-ms="2" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at com.nagasumali.stocks.controller.StockController.postStock(StockController.java:45)
+	at com.nagasumali.stocks.controller.StockControllerTest.shouldThrowExceptionWhenPostingStockAndConverterThrowsException(StockControllerTest.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowExceptionWhenPostingStockAndConverterThrowsException -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldThrowExceptionWhenPostingStockAndServiceThrowsException()[pri:0, instance:com.nagasumali.stocks.controller.StockControllerTest@36bc415e]" name="shouldThrowExceptionWhenPostingStockAndServiceThrowsException" duration-ms="4" started-at="2023-03-24T16:25:38Z" finished-at="2023-03-24T16:25:38Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+	at com.nagasumali.stocks.controller.StockController.postStock(StockController.java:46)
+	at com.nagasumali.stocks.controller.StockControllerTest.shouldThrowExceptionWhenPostingStockAndServiceThrowsException(StockControllerTest.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowExceptionWhenPostingStockAndServiceThrowsException -->
+      </class> <!-- com.nagasumali.stocks.controller.StockControllerTest -->
+      <class name="com.nagasumali.stocks.controller.converter.StockConverterTest">
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.converter.StockConverterTest@452c8a40]" name="setupScenario" is-config="true" duration-ms="34" started-at="2023-03-24T16:25:36Z" finished-at="2023-03-24T16:25:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldConvert()[pri:0, instance:com.nagasumali.stocks.controller.converter.StockConverterTest@452c8a40]" name="shouldConvert" duration-ms="289" started-at="2023-03-24T16:25:36Z" finished-at="2023-03-24T16:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldConvert -->
+      </class> <!-- com.nagasumali.stocks.controller.converter.StockConverterTest -->
+      <class name="com.nagasumali.stocks.spec.StockSpecificationTest">
+        <test-method status="PASS" signature="shouldValidateSymbol()[pri:0, instance:com.nagasumali.stocks.spec.StockSpecificationTest@4917d36b]" name="shouldValidateSymbol" duration-ms="0" started-at="2023-03-24T16:25:40Z" finished-at="2023-03-24T16:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldValidateSymbol -->
+      </class> <!-- com.nagasumali.stocks.spec.StockSpecificationTest -->
+      <class name="com.nagasumali.stocks.controller.converter.StockDtoConverterTest">
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.converter.StockDtoConverterTest@6d367020]" name="setupScenario" is-config="true" duration-ms="4" started-at="2023-03-24T16:25:37Z" finished-at="2023-03-24T16:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldConvert()[pri:0, instance:com.nagasumali.stocks.controller.converter.StockDtoConverterTest@6d367020]" name="shouldConvert" duration-ms="8" started-at="2023-03-24T16:25:37Z" finished-at="2023-03-24T16:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldConvert -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.controller.converter.StockDtoConverterTest@6d367020]" name="setupScenario" is-config="true" duration-ms="2" started-at="2023-03-24T16:25:37Z" finished-at="2023-03-24T16:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldFailWhenTypeIsInvalid()[pri:0, instance:com.nagasumali.stocks.controller.converter.StockDtoConverterTest@6d367020]" name="shouldFailWhenTypeIsInvalid" duration-ms="1" started-at="2023-03-24T16:25:37Z" finished-at="2023-03-24T16:25:37Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[No enum constant com.nagasumali.stocks.domain.StockType.INVALID]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: No enum constant com.nagasumali.stocks.domain.StockType.INVALID
+	at java.lang.Enum.valueOf(Enum.java:238)
+	at com.nagasumali.stocks.domain.StockType.valueOf(StockType.java:6)
+	at com.nagasumali.stocks.controller.converter.StockDtoConverter.apply(StockDtoConverter.java:18)
+	at com.nagasumali.stocks.controller.converter.StockDtoConverterTest.shouldFailWhenTypeIsInvalid(StockDtoConverterTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldFailWhenTypeIsInvalid -->
+      </class> <!-- com.nagasumali.stocks.controller.converter.StockDtoConverterTest -->
+      <class name="com.nagasumali.stocks.repository.LocalStockRepositoryTest">
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.repository.LocalStockRepositoryTest@72ba28ee]" name="setupScenario" is-config="true" duration-ms="68" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldDeleteFromRepository()[pri:0, instance:com.nagasumali.stocks.repository.LocalStockRepositoryTest@72ba28ee]" name="shouldDeleteFromRepository" duration-ms="5" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldDeleteFromRepository -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.repository.LocalStockRepositoryTest@72ba28ee]" name="setupScenario" is-config="true" duration-ms="1" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldFindAllInRepositoryFromSpec()[pri:0, instance:com.nagasumali.stocks.repository.LocalStockRepositoryTest@72ba28ee]" name="shouldFindAllInRepositoryFromSpec" duration-ms="123" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldFindAllInRepositoryFromSpec -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.repository.LocalStockRepositoryTest@72ba28ee]" name="setupScenario" is-config="true" duration-ms="0" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+        <test-method status="PASS" signature="shouldFindOneInRepositoryFromSpec()[pri:0, instance:com.nagasumali.stocks.repository.LocalStockRepositoryTest@72ba28ee]" name="shouldFindOneInRepositoryFromSpec" duration-ms="11" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldFindOneInRepositoryFromSpec -->
+        <test-method status="PASS" signature="shouldSaveDataToRepository()[pri:0, instance:com.nagasumali.stocks.repository.LocalStockRepositoryTest@72ba28ee]" name="shouldSaveDataToRepository" duration-ms="0" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldSaveDataToRepository -->
+        <test-method status="PASS" signature="setupScenario()[pri:0, instance:com.nagasumali.stocks.repository.LocalStockRepositoryTest@72ba28ee]" name="setupScenario" is-config="true" duration-ms="0" started-at="2023-03-24T16:25:39Z" finished-at="2023-03-24T16:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupScenario -->
+      </class> <!-- com.nagasumali.stocks.repository.LocalStockRepositoryTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

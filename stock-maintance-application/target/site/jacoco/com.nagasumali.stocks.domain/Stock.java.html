@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Stock.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">stock-maintance-application</a> &gt; <a href="index.source.html" class="el_package">com.nagasumali.stocks.domain</a> &gt; <span class="el_source">Stock.java</span></div><h1>Stock.java</h1><pre class="source lang-java linenums">package com.nagasumali.stocks.domain;
+
+import com.google.common.base.MoreObjects;
+import com.google.common.base.Objects;
+
+import static com.google.common.base.Preconditions.checkArgument;
+import static org.apache.commons.lang3.StringUtils.isNotBlank;
+
+public class Stock {
+
+    private final String symbol;
+    private final StockType type;
+    private final Double lastDividend;
+    private final Double fixedDivided;
+    private final Double parValue;
+    private final Double tickerPrice;
+
+    public Stock(String symbol,
+                 StockType type,
+                 double lastDividend,
+                 double fixedDivided,
+                 double parValue,
+<span class="fc" id="L23">                 double tickerPrice) {</span>
+<span class="fc" id="L24">        checkArgument(isNotBlank(symbol), &quot;stock symbol is mandatory&quot;);</span>
+<span class="fc bfc" id="L25" title="All 2 branches covered.">        checkArgument(type != null, &quot;stock type is mandatory&quot;);</span>
+<span class="fc bfc" id="L26" title="All 2 branches covered.">        checkArgument(lastDividend &gt;= 0.0, &quot;last dividend should be &gt;=0&quot;);</span>
+<span class="fc bfc" id="L27" title="All 4 branches covered.">        checkArgument(fixedDivided &gt;= 0.0 &amp;&amp; fixedDivided &lt;= 1.0, &quot;fixed dividend should be between 0 and 1&quot;);</span>
+<span class="fc bfc" id="L28" title="All 2 branches covered.">        checkArgument(parValue &gt;= 0.0, &quot;par value should be &gt;=0&quot;);</span>
+<span class="fc bfc" id="L29" title="All 2 branches covered.">        checkArgument(tickerPrice &gt;= 0.0, &quot;ticker price should be &gt;=0&quot;);</span>
+
+<span class="fc" id="L31">        this.symbol = symbol;</span>
+<span class="fc" id="L32">        this.type = type;</span>
+<span class="fc" id="L33">        this.lastDividend = lastDividend;</span>
+<span class="fc" id="L34">        this.fixedDivided = fixedDivided;</span>
+<span class="fc" id="L35">        this.parValue = parValue;</span>
+<span class="fc" id="L36">        this.tickerPrice = tickerPrice;</span>
+<span class="fc" id="L37">    }</span>
+
+    public String getSymbol() {
+<span class="fc" id="L40">        return symbol;</span>
+    }
+
+    public StockType getType() {
+<span class="fc" id="L44">        return type;</span>
+    }
+
+    public Double getLastDividend() {
+<span class="fc" id="L48">        return lastDividend;</span>
+    }
+
+    public Double getFixedDividend() {
+<span class="fc" id="L52">        return fixedDivided;</span>
+    }
+
+    public Double getParValue() {
+<span class="fc" id="L56">        return parValue;</span>
+    }
+
+    public Double getTickerPrice() {
+<span class="fc" id="L60">        return tickerPrice;</span>
+    }
+
+    @Override
+    public boolean equals(Object o) {
+<span class="fc bfc" id="L65" title="All 2 branches covered.">        if (this == o) {</span>
+<span class="fc" id="L66">            return true;</span>
+        }
+<span class="pc bpc" id="L68" title="2 of 4 branches missed.">        if (o == null || getClass() != o.getClass()) {</span>
+<span class="nc" id="L69">            return false;</span>
+        }
+<span class="fc" id="L71">        Stock stock = (Stock) o;</span>
+        // symbol uniquely identifies a stock
+<span class="fc" id="L73">        return Objects.equal(symbol, stock.symbol);</span>
+    }
+
+    @Override
+    public int hashCode() {
+<span class="fc" id="L78">        return Objects.hashCode(symbol);</span>
+    }
+
+    @Override
+    public String toString() {
+<span class="nc" id="L83">        return MoreObjects.toStringHelper(this)</span>
+<span class="nc" id="L84">                .add(&quot;symbol&quot;, symbol)</span>
+<span class="nc" id="L85">                .add(&quot;type&quot;, type)</span>
+<span class="nc" id="L86">                .add(&quot;lastDividend&quot;, lastDividend)</span>
+<span class="nc" id="L87">                .add(&quot;fixedDivided&quot;, fixedDivided)</span>
+<span class="nc" id="L88">                .add(&quot;parValue&quot;, parValue)</span>
+<span class="nc" id="L89">                .add(&quot;tickerPrice&quot;, tickerPrice)</span>
+<span class="nc" id="L90">                .toString();</span>
+    }
+
+    public Double getDividendYield() {
+<span class="pc bpc" id="L94" title="1 of 2 branches missed.">        checkArgument(tickerPrice != 0.0, &quot;ticker price cannot be zero&quot;);</span>
+
+<span class="fc bfc" id="L96" title="All 2 branches covered.">        if (type.equals(StockType.COMMON)) {</span>
+<span class="fc" id="L97">            return calculateCommonDividedYield(tickerPrice);</span>
+        }
+
+<span class="fc" id="L100">        return calculatePreferredDividedYield(tickerPrice);</span>
+    }
+
+    public Double getPERatio() {
+<span class="fc" id="L104">        return tickerPrice / getDividendYield();</span>
+    }
+
+    private Double calculatePreferredDividedYield(Double tickerPrice) {
+<span class="fc" id="L108">        return getFixedDividend() / tickerPrice;</span>
+    }
+
+    private Double calculateCommonDividedYield(Double tickerPrice) {
+<span class="fc" id="L112">        return getLastDividend() / tickerPrice;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>

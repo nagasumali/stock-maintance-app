@@ -1,0 +1,1778 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">60 methods,   60 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.domain.StockTest" hash-for-method="shouldCalculateCommonDividendYield">shouldCalculateCommonDividendYield</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.service.StockServiceImplTest" hash-for-method="shouldCalculateDividend">shouldCalculateDividend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.service.StockServiceImplTest" hash-for-method="shouldCalculateGBCEAllSharesIndex">shouldCalculateGBCEAllSharesIndex</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.domain.StockTest" hash-for-method="shouldCalculatePERatio">shouldCalculatePERatio</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.service.StockServiceImplTest" hash-for-method="shouldCalculatePERatio">shouldCalculatePERatio</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.domain.StockTest" hash-for-method="shouldCalculatePreferredDividendYield">shouldCalculatePreferredDividendYield</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.service.StockServiceImplTest" hash-for-method="shouldCalculateStockPrice">shouldCalculateStockPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.service.StockServiceImplTest" hash-for-method="shouldCalculateStockPriceFromPastMinutes">shouldCalculateStockPriceFromPastMinutes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.converter.StockDtoConverterTest" hash-for-method="shouldConvert">shouldConvert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.converter.StockConverterTest" hash-for-method="shouldConvert">shouldConvert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.converter.TradeDtoConverterTest" hash-for-method="shouldConvert">shouldConvert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.repository.LocalStockRepositoryTest" hash-for-method="shouldDeleteFromRepository">shouldDeleteFromRepository</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.repository.LocalTradeRepositoryTest" hash-for-method="shouldDeleteFromRepository">shouldDeleteFromRepository</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.converter.StockDtoConverterTest" hash-for-method="shouldFailWhenTypeIsInvalid">shouldFailWhenTypeIsInvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.domain.StockTest" hash-for-method="shouldFailWithEmptySymbol">shouldFailWithEmptySymbol</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.domain.StockTest" hash-for-method="shouldFailWithFixedDividendGreaterThanUnit">shouldFailWithFixedDividendGreaterThanUnit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.domain.StockTest" hash-for-method="shouldFailWithNegativeFixedDividend">shouldFailWithNegativeFixedDividend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.domain.StockTest" hash-for-method="shouldFailWithNegativeLastDividend">shouldFailWithNegativeLastDividend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.domain.StockTest" hash-for-method="shouldFailWithNegativeParValue">shouldFailWithNegativeParValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.domain.StockTest" hash-for-method="shouldFailWithNegativeTickerPrice">shouldFailWithNegativeTickerPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.domain.StockTest" hash-for-method="shouldFailWithNullSymbol">shouldFailWithNullSymbol</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.domain.StockTest" hash-for-method="shouldFailWithNullType">shouldFailWithNullType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.repository.LocalStockRepositoryTest" hash-for-method="shouldFindAllInRepositoryFromSpec">shouldFindAllInRepositoryFromSpec</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.repository.LocalTradeRepositoryTest" hash-for-method="shouldFindAllInRepositoryFromSpec">shouldFindAllInRepositoryFromSpec</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.repository.LocalTradeRepositoryTest" hash-for-method="shouldFindOneInRepositoryFromSpec">shouldFindOneInRepositoryFromSpec</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.repository.LocalStockRepositoryTest" hash-for-method="shouldFindOneInRepositoryFromSpec">shouldFindOneInRepositoryFromSpec</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.StockControllerTest" hash-for-method="shouldGetDividend">shouldGetDividend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.StockControllerTest" hash-for-method="shouldGetGBCEAllSharesIndex">shouldGetGBCEAllSharesIndex</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.StockControllerTest" hash-for-method="shouldGetPERatio">shouldGetPERatio</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.domain.TradeTest" hash-for-method="shouldGetState">shouldGetState</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.domain.StockTest" hash-for-method="shouldGetState">shouldGetState</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.StockControllerTest" hash-for-method="shouldGetStock">shouldGetStock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.StockControllerTest" hash-for-method="shouldGetStockPrice">shouldGetStockPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.StockControllerTest" hash-for-method="shouldPostStock">shouldPostStock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.TradeControllerTest" hash-for-method="shouldPostTrade">shouldPostTrade</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.service.StockServiceImplTest" hash-for-method="shouldRecordStock">shouldRecordStock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.service.TradeServiceImplTest" hash-for-method="shouldRecordStock">shouldRecordStock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.StockControllerTest" hash-for-method="shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent">shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.TradeControllerTest" hash-for-method="shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent">shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.spec.TradeSpecificationTest" hash-for-method="shouldReturnTrueIfDateIntervalIsZero">shouldReturnTrueIfDateIntervalIsZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.repository.LocalTradeRepositoryTest" hash-for-method="shouldSaveDataToRepository">shouldSaveDataToRepository</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.repository.LocalStockRepositoryTest" hash-for-method="shouldSaveDataToRepository">shouldSaveDataToRepository</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.service.StockServiceImplTest" hash-for-method="shouldThrowExceptionWhenCalculatingDividendAndStockDoesNotExist">shouldThrowExceptionWhenCalculatingDividendAndStockDoesNotExist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.service.StockServiceImplTest" hash-for-method="shouldThrowExceptionWhenCalculatingGBCEAsiAndCannotComputePrice">shouldThrowExceptionWhenCalculatingGBCEAsiAndCannotComputePrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.service.StockServiceImplTest" hash-for-method="shouldThrowExceptionWhenCalculatingGBCEAsiAndNoStocksFound">shouldThrowExceptionWhenCalculatingGBCEAsiAndNoStocksFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.service.StockServiceImplTest" hash-for-method="shouldThrowExceptionWhenCalculatingPERatioAndStockDoesNotExist">shouldThrowExceptionWhenCalculatingPERatioAndStockDoesNotExist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.service.StockServiceImplTest" hash-for-method="shouldThrowExceptionWhenCalculatingStockPriceAndNoTradesFound">shouldThrowExceptionWhenCalculatingStockPriceAndNoTradesFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.service.StockServiceImplTest" hash-for-method="shouldThrowExceptionWhenCalculatingStockPriceAndQuantitySumIsZero">shouldThrowExceptionWhenCalculatingStockPriceAndQuantitySumIsZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.converter.TradeDtoConverterTest" hash-for-method="shouldThrowExceptionWhenConversionFails">shouldThrowExceptionWhenConversionFails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.StockControllerTest" hash-for-method="shouldThrowExceptionWhenGettingAllSharesIndexAndServiceThrowsException">shouldThrowExceptionWhenGettingAllSharesIndexAndServiceThrowsException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.StockControllerTest" hash-for-method="shouldThrowExceptionWhenGettingDividendAndServiceThrowsException">shouldThrowExceptionWhenGettingDividendAndServiceThrowsException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.StockControllerTest" hash-for-method="shouldThrowExceptionWhenGettingPERatioAndServiceThrowsException">shouldThrowExceptionWhenGettingPERatioAndServiceThrowsException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.StockControllerTest" hash-for-method="shouldThrowExceptionWhenGettingStockAndConverterServiceThrowsException">shouldThrowExceptionWhenGettingStockAndConverterServiceThrowsException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.StockControllerTest" hash-for-method="shouldThrowExceptionWhenGettingStockAndServiceThrowsException">shouldThrowExceptionWhenGettingStockAndServiceThrowsException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.StockControllerTest" hash-for-method="shouldThrowExceptionWhenGettingStockPriceAndServiceThrowsException">shouldThrowExceptionWhenGettingStockPriceAndServiceThrowsException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.StockControllerTest" hash-for-method="shouldThrowExceptionWhenPostingStockAndConverterThrowsException">shouldThrowExceptionWhenPostingStockAndConverterThrowsException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.controller.StockControllerTest" hash-for-method="shouldThrowExceptionWhenPostingStockAndServiceThrowsException">shouldThrowExceptionWhenPostingStockAndServiceThrowsException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.spec.TradeSpecificationTest" hash-for-method="shouldValidateDateInterval">shouldValidateDateInterval</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.spec.TradeSpecificationTest" hash-for-method="shouldValidateStockSymbol">shouldValidateStockSymbol</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nagasumali.stocks.spec.StockSpecificationTest" hash-for-method="shouldValidateSymbol">shouldValidateSymbol</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nagasumali.stocks.service.StockServiceImplTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldCalculateDividend">
+                  </a> <!-- shouldCalculateDividend -->
+                  <span class="method-name">shouldCalculateDividend</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldCalculateGBCEAllSharesIndex">
+                  </a> <!-- shouldCalculateGBCEAllSharesIndex -->
+                  <span class="method-name">shouldCalculateGBCEAllSharesIndex</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldCalculatePERatio">
+                  </a> <!-- shouldCalculatePERatio -->
+                  <span class="method-name">shouldCalculatePERatio</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldCalculateStockPrice">
+                  </a> <!-- shouldCalculateStockPrice -->
+                  <span class="method-name">shouldCalculateStockPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldCalculateStockPriceFromPastMinutes">
+                  </a> <!-- shouldCalculateStockPriceFromPastMinutes -->
+                  <span class="method-name">shouldCalculateStockPriceFromPastMinutes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldRecordStock">
+                  </a> <!-- shouldRecordStock -->
+                  <span class="method-name">shouldRecordStock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldThrowExceptionWhenCalculatingDividendAndStockDoesNotExist">
+                  </a> <!-- shouldThrowExceptionWhenCalculatingDividendAndStockDoesNotExist -->
+                  <span class="method-name">shouldThrowExceptionWhenCalculatingDividendAndStockDoesNotExist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldThrowExceptionWhenCalculatingGBCEAsiAndCannotComputePrice">
+                  </a> <!-- shouldThrowExceptionWhenCalculatingGBCEAsiAndCannotComputePrice -->
+                  <span class="method-name">shouldThrowExceptionWhenCalculatingGBCEAsiAndCannotComputePrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldThrowExceptionWhenCalculatingGBCEAsiAndNoStocksFound">
+                  </a> <!-- shouldThrowExceptionWhenCalculatingGBCEAsiAndNoStocksFound -->
+                  <span class="method-name">shouldThrowExceptionWhenCalculatingGBCEAsiAndNoStocksFound</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldThrowExceptionWhenCalculatingPERatioAndStockDoesNotExist">
+                  </a> <!-- shouldThrowExceptionWhenCalculatingPERatioAndStockDoesNotExist -->
+                  <span class="method-name">shouldThrowExceptionWhenCalculatingPERatioAndStockDoesNotExist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldThrowExceptionWhenCalculatingStockPriceAndNoTradesFound">
+                  </a> <!-- shouldThrowExceptionWhenCalculatingStockPriceAndNoTradesFound -->
+                  <span class="method-name">shouldThrowExceptionWhenCalculatingStockPriceAndNoTradesFound</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldThrowExceptionWhenCalculatingStockPriceAndQuantitySumIsZero">
+                  </a> <!-- shouldThrowExceptionWhenCalculatingStockPriceAndQuantitySumIsZero -->
+                  <span class="method-name">shouldThrowExceptionWhenCalculatingStockPriceAndQuantitySumIsZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nagasumali.stocks.spec.StockSpecificationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldValidateSymbol">
+                  </a> <!-- shouldValidateSymbol -->
+                  <span class="method-name">shouldValidateSymbol</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nagasumali.stocks.repository.LocalTradeRepositoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldDeleteFromRepository">
+                  </a> <!-- shouldDeleteFromRepository -->
+                  <span class="method-name">shouldDeleteFromRepository</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldFindAllInRepositoryFromSpec">
+                  </a> <!-- shouldFindAllInRepositoryFromSpec -->
+                  <span class="method-name">shouldFindAllInRepositoryFromSpec</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldFindOneInRepositoryFromSpec">
+                  </a> <!-- shouldFindOneInRepositoryFromSpec -->
+                  <span class="method-name">shouldFindOneInRepositoryFromSpec</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldSaveDataToRepository">
+                  </a> <!-- shouldSaveDataToRepository -->
+                  <span class="method-name">shouldSaveDataToRepository</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nagasumali.stocks.domain.StockTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldCalculateCommonDividendYield">
+                  </a> <!-- shouldCalculateCommonDividendYield -->
+                  <span class="method-name">shouldCalculateCommonDividendYield</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldCalculatePERatio">
+                  </a> <!-- shouldCalculatePERatio -->
+                  <span class="method-name">shouldCalculatePERatio</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldCalculatePreferredDividendYield">
+                  </a> <!-- shouldCalculatePreferredDividendYield -->
+                  <span class="method-name">shouldCalculatePreferredDividendYield</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldFailWithEmptySymbol">
+                  </a> <!-- shouldFailWithEmptySymbol -->
+                  <span class="method-name">shouldFailWithEmptySymbol</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldFailWithFixedDividendGreaterThanUnit">
+                  </a> <!-- shouldFailWithFixedDividendGreaterThanUnit -->
+                  <span class="method-name">shouldFailWithFixedDividendGreaterThanUnit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldFailWithNegativeFixedDividend">
+                  </a> <!-- shouldFailWithNegativeFixedDividend -->
+                  <span class="method-name">shouldFailWithNegativeFixedDividend</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldFailWithNegativeLastDividend">
+                  </a> <!-- shouldFailWithNegativeLastDividend -->
+                  <span class="method-name">shouldFailWithNegativeLastDividend</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldFailWithNegativeParValue">
+                  </a> <!-- shouldFailWithNegativeParValue -->
+                  <span class="method-name">shouldFailWithNegativeParValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldFailWithNegativeTickerPrice">
+                  </a> <!-- shouldFailWithNegativeTickerPrice -->
+                  <span class="method-name">shouldFailWithNegativeTickerPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldFailWithNullSymbol">
+                  </a> <!-- shouldFailWithNullSymbol -->
+                  <span class="method-name">shouldFailWithNullSymbol</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldFailWithNullType">
+                  </a> <!-- shouldFailWithNullType -->
+                  <span class="method-name">shouldFailWithNullType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldGetState">
+                  </a> <!-- shouldGetState -->
+                  <span class="method-name">shouldGetState</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nagasumali.stocks.controller.converter.TradeDtoConverterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldConvert">
+                  </a> <!-- shouldConvert -->
+                  <span class="method-name">shouldConvert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldThrowExceptionWhenConversionFails">
+                  </a> <!-- shouldThrowExceptionWhenConversionFails -->
+                  <span class="method-name">shouldThrowExceptionWhenConversionFails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nagasumali.stocks.repository.LocalStockRepositoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldDeleteFromRepository">
+                  </a> <!-- shouldDeleteFromRepository -->
+                  <span class="method-name">shouldDeleteFromRepository</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldFindAllInRepositoryFromSpec">
+                  </a> <!-- shouldFindAllInRepositoryFromSpec -->
+                  <span class="method-name">shouldFindAllInRepositoryFromSpec</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldFindOneInRepositoryFromSpec">
+                  </a> <!-- shouldFindOneInRepositoryFromSpec -->
+                  <span class="method-name">shouldFindOneInRepositoryFromSpec</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldSaveDataToRepository">
+                  </a> <!-- shouldSaveDataToRepository -->
+                  <span class="method-name">shouldSaveDataToRepository</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nagasumali.stocks.service.TradeServiceImplTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldRecordStock">
+                  </a> <!-- shouldRecordStock -->
+                  <span class="method-name">shouldRecordStock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nagasumali.stocks.spec.TradeSpecificationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldReturnTrueIfDateIntervalIsZero">
+                  </a> <!-- shouldReturnTrueIfDateIntervalIsZero -->
+                  <span class="method-name">shouldReturnTrueIfDateIntervalIsZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldValidateDateInterval">
+                  </a> <!-- shouldValidateDateInterval -->
+                  <span class="method-name">shouldValidateDateInterval</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldValidateStockSymbol">
+                  </a> <!-- shouldValidateStockSymbol -->
+                  <span class="method-name">shouldValidateStockSymbol</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nagasumali.stocks.controller.converter.StockConverterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldConvert">
+                  </a> <!-- shouldConvert -->
+                  <span class="method-name">shouldConvert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nagasumali.stocks.domain.TradeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldGetState">
+                  </a> <!-- shouldGetState -->
+                  <span class="method-name">shouldGetState</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nagasumali.stocks.controller.StockControllerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldGetDividend">
+                  </a> <!-- shouldGetDividend -->
+                  <span class="method-name">shouldGetDividend</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldGetGBCEAllSharesIndex">
+                  </a> <!-- shouldGetGBCEAllSharesIndex -->
+                  <span class="method-name">shouldGetGBCEAllSharesIndex</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldGetPERatio">
+                  </a> <!-- shouldGetPERatio -->
+                  <span class="method-name">shouldGetPERatio</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldGetStock">
+                  </a> <!-- shouldGetStock -->
+                  <span class="method-name">shouldGetStock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldGetStockPrice">
+                  </a> <!-- shouldGetStockPrice -->
+                  <span class="method-name">shouldGetStockPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldPostStock">
+                  </a> <!-- shouldPostStock -->
+                  <span class="method-name">shouldPostStock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent">
+                  </a> <!-- shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent -->
+                  <span class="method-name">shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldThrowExceptionWhenGettingAllSharesIndexAndServiceThrowsException">
+                  </a> <!-- shouldThrowExceptionWhenGettingAllSharesIndexAndServiceThrowsException -->
+                  <span class="method-name">shouldThrowExceptionWhenGettingAllSharesIndexAndServiceThrowsException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldThrowExceptionWhenGettingDividendAndServiceThrowsException">
+                  </a> <!-- shouldThrowExceptionWhenGettingDividendAndServiceThrowsException -->
+                  <span class="method-name">shouldThrowExceptionWhenGettingDividendAndServiceThrowsException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldThrowExceptionWhenGettingPERatioAndServiceThrowsException">
+                  </a> <!-- shouldThrowExceptionWhenGettingPERatioAndServiceThrowsException -->
+                  <span class="method-name">shouldThrowExceptionWhenGettingPERatioAndServiceThrowsException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldThrowExceptionWhenGettingStockAndConverterServiceThrowsException">
+                  </a> <!-- shouldThrowExceptionWhenGettingStockAndConverterServiceThrowsException -->
+                  <span class="method-name">shouldThrowExceptionWhenGettingStockAndConverterServiceThrowsException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldThrowExceptionWhenGettingStockAndServiceThrowsException">
+                  </a> <!-- shouldThrowExceptionWhenGettingStockAndServiceThrowsException -->
+                  <span class="method-name">shouldThrowExceptionWhenGettingStockAndServiceThrowsException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldThrowExceptionWhenGettingStockPriceAndServiceThrowsException">
+                  </a> <!-- shouldThrowExceptionWhenGettingStockPriceAndServiceThrowsException -->
+                  <span class="method-name">shouldThrowExceptionWhenGettingStockPriceAndServiceThrowsException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldThrowExceptionWhenPostingStockAndConverterThrowsException">
+                  </a> <!-- shouldThrowExceptionWhenPostingStockAndConverterThrowsException -->
+                  <span class="method-name">shouldThrowExceptionWhenPostingStockAndConverterThrowsException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldThrowExceptionWhenPostingStockAndServiceThrowsException">
+                  </a> <!-- shouldThrowExceptionWhenPostingStockAndServiceThrowsException -->
+                  <span class="method-name">shouldThrowExceptionWhenPostingStockAndServiceThrowsException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nagasumali.stocks.controller.TradeControllerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldPostTrade">
+                  </a> <!-- shouldPostTrade -->
+                  <span class="method-name">shouldPostTrade</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent">
+                  </a> <!-- shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent -->
+                  <span class="method-name">shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nagasumali.stocks.controller.converter.StockDtoConverterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldConvert">
+                  </a> <!-- shouldConvert -->
+                  <span class="method-name">shouldConvert</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldFailWhenTypeIsInvalid">
+                  </a> <!-- shouldFailWhenTypeIsInvalid -->
+                  <span class="method-name">shouldFailWhenTypeIsInvalid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.nagasumali.stocks.controller.converter.StockConverterTest&quot;/&gt;
+      &lt;class name=&quot;com.nagasumali.stocks.controller.converter.StockDtoConverterTest&quot;/&gt;
+      &lt;class name=&quot;com.nagasumali.stocks.controller.converter.TradeDtoConverterTest&quot;/&gt;
+      &lt;class name=&quot;com.nagasumali.stocks.controller.StockControllerTest&quot;/&gt;
+      &lt;class name=&quot;com.nagasumali.stocks.controller.TradeControllerTest&quot;/&gt;
+      &lt;class name=&quot;com.nagasumali.stocks.domain.StockTest&quot;/&gt;
+      &lt;class name=&quot;com.nagasumali.stocks.domain.TradeTest&quot;/&gt;
+      &lt;class name=&quot;com.nagasumali.stocks.repository.LocalStockRepositoryTest&quot;/&gt;
+      &lt;class name=&quot;com.nagasumali.stocks.repository.LocalTradeRepositoryTest&quot;/&gt;
+      &lt;class name=&quot;com.nagasumali.stocks.service.StockServiceImplTest&quot;/&gt;
+      &lt;class name=&quot;com.nagasumali.stocks.service.TradeServiceImplTest&quot;/&gt;
+      &lt;class name=&quot;com.nagasumali.stocks.spec.StockSpecificationTest&quot;/&gt;
+      &lt;class name=&quot;com.nagasumali.stocks.spec.TradeSpecificationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (13 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(60);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'shouldCalculateGBCEAllSharesIndex')
+data.setCell(0, 2, 'com.nagasumali.stocks.service.StockServiceImplTest')
+data.setCell(0, 3, 654);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'shouldPostTrade')
+data.setCell(1, 2, 'com.nagasumali.stocks.controller.TradeControllerTest')
+data.setCell(1, 3, 290);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'shouldConvert')
+data.setCell(2, 2, 'com.nagasumali.stocks.controller.converter.StockConverterTest')
+data.setCell(2, 3, 289);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'shouldConvert')
+data.setCell(3, 2, 'com.nagasumali.stocks.controller.converter.TradeDtoConverterTest')
+data.setCell(3, 3, 191);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'shouldCalculatePERatio')
+data.setCell(4, 2, 'com.nagasumali.stocks.domain.StockTest')
+data.setCell(4, 3, 165);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'shouldGetDividend')
+data.setCell(5, 2, 'com.nagasumali.stocks.controller.StockControllerTest')
+data.setCell(5, 3, 134);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'shouldFindAllInRepositoryFromSpec')
+data.setCell(6, 2, 'com.nagasumali.stocks.repository.LocalStockRepositoryTest')
+data.setCell(6, 3, 123);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'shouldPostStock')
+data.setCell(7, 2, 'com.nagasumali.stocks.controller.StockControllerTest')
+data.setCell(7, 3, 73);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'shouldCalculateStockPriceFromPastMinutes')
+data.setCell(8, 2, 'com.nagasumali.stocks.service.StockServiceImplTest')
+data.setCell(8, 3, 38);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent')
+data.setCell(9, 2, 'com.nagasumali.stocks.controller.StockControllerTest')
+data.setCell(9, 3, 36);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'shouldCalculateDividend')
+data.setCell(10, 2, 'com.nagasumali.stocks.service.StockServiceImplTest')
+data.setCell(10, 3, 14);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'shouldFindOneInRepositoryFromSpec')
+data.setCell(11, 2, 'com.nagasumali.stocks.repository.LocalStockRepositoryTest')
+data.setCell(11, 3, 11);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'shouldFailWithNegativeFixedDividend')
+data.setCell(12, 2, 'com.nagasumali.stocks.domain.StockTest')
+data.setCell(12, 3, 10);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'shouldConvert')
+data.setCell(13, 2, 'com.nagasumali.stocks.controller.converter.StockDtoConverterTest')
+data.setCell(13, 3, 8);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'shouldGetGBCEAllSharesIndex')
+data.setCell(14, 2, 'com.nagasumali.stocks.controller.StockControllerTest')
+data.setCell(14, 3, 7);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'shouldDeleteFromRepository')
+data.setCell(15, 2, 'com.nagasumali.stocks.repository.LocalStockRepositoryTest')
+data.setCell(15, 3, 5);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'shouldFindOneInRepositoryFromSpec')
+data.setCell(16, 2, 'com.nagasumali.stocks.repository.LocalTradeRepositoryTest')
+data.setCell(16, 3, 5);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'shouldRecordStock')
+data.setCell(17, 2, 'com.nagasumali.stocks.service.StockServiceImplTest')
+data.setCell(17, 3, 4);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'shouldThrowExceptionWhenPostingStockAndServiceThrowsException')
+data.setCell(18, 2, 'com.nagasumali.stocks.controller.StockControllerTest')
+data.setCell(18, 3, 4);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'shouldThrowExceptionWhenGettingAllSharesIndexAndServiceThrowsException')
+data.setCell(19, 2, 'com.nagasumali.stocks.controller.StockControllerTest')
+data.setCell(19, 3, 4);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'shouldGetStockPrice')
+data.setCell(20, 2, 'com.nagasumali.stocks.controller.StockControllerTest')
+data.setCell(20, 3, 4);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'shouldGetStock')
+data.setCell(21, 2, 'com.nagasumali.stocks.controller.StockControllerTest')
+data.setCell(21, 3, 4);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'shouldGetPERatio')
+data.setCell(22, 2, 'com.nagasumali.stocks.controller.StockControllerTest')
+data.setCell(22, 3, 4);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'shouldThrowExceptionWhenGettingStockAndConverterServiceThrowsException')
+data.setCell(23, 2, 'com.nagasumali.stocks.controller.StockControllerTest')
+data.setCell(23, 3, 4);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'shouldFindAllInRepositoryFromSpec')
+data.setCell(24, 2, 'com.nagasumali.stocks.repository.LocalTradeRepositoryTest')
+data.setCell(24, 3, 4);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'shouldThrowExceptionWhenCalculatingGBCEAsiAndCannotComputePrice')
+data.setCell(25, 2, 'com.nagasumali.stocks.service.StockServiceImplTest')
+data.setCell(25, 3, 3);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'shouldCalculateStockPrice')
+data.setCell(26, 2, 'com.nagasumali.stocks.service.StockServiceImplTest')
+data.setCell(26, 3, 3);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent')
+data.setCell(27, 2, 'com.nagasumali.stocks.controller.TradeControllerTest')
+data.setCell(27, 3, 3);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'shouldThrowExceptionWhenCalculatingDividendAndStockDoesNotExist')
+data.setCell(28, 2, 'com.nagasumali.stocks.service.StockServiceImplTest')
+data.setCell(28, 3, 3);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'shouldThrowExceptionWhenCalculatingStockPriceAndNoTradesFound')
+data.setCell(29, 2, 'com.nagasumali.stocks.service.StockServiceImplTest')
+data.setCell(29, 3, 3);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'shouldThrowExceptionWhenGettingPERatioAndServiceThrowsException')
+data.setCell(30, 2, 'com.nagasumali.stocks.controller.StockControllerTest')
+data.setCell(30, 3, 3);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'shouldGetState')
+data.setCell(31, 2, 'com.nagasumali.stocks.domain.TradeTest')
+data.setCell(31, 3, 2);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'shouldThrowExceptionWhenCalculatingGBCEAsiAndNoStocksFound')
+data.setCell(32, 2, 'com.nagasumali.stocks.service.StockServiceImplTest')
+data.setCell(32, 3, 2);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'shouldThrowExceptionWhenGettingStockAndServiceThrowsException')
+data.setCell(33, 2, 'com.nagasumali.stocks.controller.StockControllerTest')
+data.setCell(33, 3, 2);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'shouldThrowExceptionWhenGettingStockPriceAndServiceThrowsException')
+data.setCell(34, 2, 'com.nagasumali.stocks.controller.StockControllerTest')
+data.setCell(34, 3, 2);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'shouldThrowExceptionWhenPostingStockAndConverterThrowsException')
+data.setCell(35, 2, 'com.nagasumali.stocks.controller.StockControllerTest')
+data.setCell(35, 3, 2);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'shouldThrowExceptionWhenCalculatingStockPriceAndQuantitySumIsZero')
+data.setCell(36, 2, 'com.nagasumali.stocks.service.StockServiceImplTest')
+data.setCell(36, 3, 2);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'shouldSaveDataToRepository')
+data.setCell(37, 2, 'com.nagasumali.stocks.repository.LocalTradeRepositoryTest')
+data.setCell(37, 3, 1);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'shouldFailWithNegativeLastDividend')
+data.setCell(38, 2, 'com.nagasumali.stocks.domain.StockTest')
+data.setCell(38, 3, 1);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'shouldFailWithNegativeTickerPrice')
+data.setCell(39, 2, 'com.nagasumali.stocks.domain.StockTest')
+data.setCell(39, 3, 1);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'shouldDeleteFromRepository')
+data.setCell(40, 2, 'com.nagasumali.stocks.repository.LocalTradeRepositoryTest')
+data.setCell(40, 3, 1);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'shouldCalculatePERatio')
+data.setCell(41, 2, 'com.nagasumali.stocks.service.StockServiceImplTest')
+data.setCell(41, 3, 1);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'shouldFailWithNullSymbol')
+data.setCell(42, 2, 'com.nagasumali.stocks.domain.StockTest')
+data.setCell(42, 3, 1);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'shouldThrowExceptionWhenConversionFails')
+data.setCell(43, 2, 'com.nagasumali.stocks.controller.converter.TradeDtoConverterTest')
+data.setCell(43, 3, 1);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'shouldValidateStockSymbol')
+data.setCell(44, 2, 'com.nagasumali.stocks.spec.TradeSpecificationTest')
+data.setCell(44, 3, 1);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'shouldFailWhenTypeIsInvalid')
+data.setCell(45, 2, 'com.nagasumali.stocks.controller.converter.StockDtoConverterTest')
+data.setCell(45, 3, 1);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'shouldGetState')
+data.setCell(46, 2, 'com.nagasumali.stocks.domain.StockTest')
+data.setCell(46, 3, 1);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'shouldRecordStock')
+data.setCell(47, 2, 'com.nagasumali.stocks.service.TradeServiceImplTest')
+data.setCell(47, 3, 1);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'shouldFailWithNullType')
+data.setCell(48, 2, 'com.nagasumali.stocks.domain.StockTest')
+data.setCell(48, 3, 1);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'shouldFailWithFixedDividendGreaterThanUnit')
+data.setCell(49, 2, 'com.nagasumali.stocks.domain.StockTest')
+data.setCell(49, 3, 1);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'shouldThrowExceptionWhenCalculatingPERatioAndStockDoesNotExist')
+data.setCell(50, 2, 'com.nagasumali.stocks.service.StockServiceImplTest')
+data.setCell(50, 3, 1);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'shouldThrowExceptionWhenGettingDividendAndServiceThrowsException')
+data.setCell(51, 2, 'com.nagasumali.stocks.controller.StockControllerTest')
+data.setCell(51, 3, 1);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'shouldCalculateCommonDividendYield')
+data.setCell(52, 2, 'com.nagasumali.stocks.domain.StockTest')
+data.setCell(52, 3, 0);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'shouldValidateSymbol')
+data.setCell(53, 2, 'com.nagasumali.stocks.spec.StockSpecificationTest')
+data.setCell(53, 3, 0);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'shouldReturnTrueIfDateIntervalIsZero')
+data.setCell(54, 2, 'com.nagasumali.stocks.spec.TradeSpecificationTest')
+data.setCell(54, 3, 0);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'shouldValidateDateInterval')
+data.setCell(55, 2, 'com.nagasumali.stocks.spec.TradeSpecificationTest')
+data.setCell(55, 3, 0);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'shouldCalculatePreferredDividendYield')
+data.setCell(56, 2, 'com.nagasumali.stocks.domain.StockTest')
+data.setCell(56, 3, 0);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'shouldFailWithNegativeParValue')
+data.setCell(57, 2, 'com.nagasumali.stocks.domain.StockTest')
+data.setCell(57, 3, 0);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'shouldSaveDataToRepository')
+data.setCell(58, 2, 'com.nagasumali.stocks.repository.LocalStockRepositoryTest')
+data.setCell(58, 3, 0);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'shouldFailWithEmptySymbol')
+data.setCell(59, 2, 'com.nagasumali.stocks.domain.StockTest')
+data.setCell(59, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagasumali.stocks.controller.converter.StockConverterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldConvert</span>
+                <span class="method-start">34 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagasumali.stocks.controller.converter.StockDtoConverterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">356 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldConvert</span>
+                <span class="method-start">360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">369 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldFailWhenTypeIsInvalid</span>
+                <span class="method-start">371 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagasumali.stocks.controller.converter.TradeDtoConverterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">377 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldConvert</span>
+                <span class="method-start">380 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">573 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldThrowExceptionWhenConversionFails</span>
+                <span class="method-start">574 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagasumali.stocks.controller.StockControllerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">576 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldGetDividend</span>
+                <span class="method-start">1594 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">1729 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldGetGBCEAllSharesIndex</span>
+                <span class="method-start">1731 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">1739 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldGetPERatio</span>
+                <span class="method-start">1740 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">1744 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldGetStock</span>
+                <span class="method-start">1745 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">1750 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldGetStockPrice</span>
+                <span class="method-start">1751 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">1756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldPostStock</span>
+                <span class="method-start">1758 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">1832 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent</span>
+                <span class="method-start">1834 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">1872 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldThrowExceptionWhenGettingAllSharesIndexAndServiceThrowsException</span>
+                <span class="method-start">1872 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">1877 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldThrowExceptionWhenGettingDividendAndServiceThrowsException</span>
+                <span class="method-start">1878 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">1880 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldThrowExceptionWhenGettingPERatioAndServiceThrowsException</span>
+                <span class="method-start">1881 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">1885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldThrowExceptionWhenGettingStockAndConverterServiceThrowsException</span>
+                <span class="method-start">1886 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">1891 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldThrowExceptionWhenGettingStockAndServiceThrowsException</span>
+                <span class="method-start">1892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">1894 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldThrowExceptionWhenGettingStockPriceAndServiceThrowsException</span>
+                <span class="method-start">1895 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">1899 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldThrowExceptionWhenPostingStockAndConverterThrowsException</span>
+                <span class="method-start">1900 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">1903 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldThrowExceptionWhenPostingStockAndServiceThrowsException</span>
+                <span class="method-start">1904 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagasumali.stocks.controller.TradeControllerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">1910 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldPostTrade</span>
+                <span class="method-start">1984 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2275 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldReturnBadRequestResponseWhenMandatoryFieldsNotPresent</span>
+                <span class="method-start">2277 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagasumali.stocks.domain.StockTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2282 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldCalculateCommonDividendYield</span>
+                <span class="method-start">2282 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldCalculatePERatio</span>
+                <span class="method-start">2284 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2450 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldCalculatePreferredDividendYield</span>
+                <span class="method-start">2453 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldFailWithEmptySymbol</span>
+                <span class="method-start">2455 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2456 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldFailWithFixedDividendGreaterThanUnit</span>
+                <span class="method-start">2456 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2457 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldFailWithNegativeFixedDividend</span>
+                <span class="method-start">2458 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2477 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldFailWithNegativeLastDividend</span>
+                <span class="method-start">2479 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2480 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldFailWithNegativeParValue</span>
+                <span class="method-start">2481 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2482 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldFailWithNegativeTickerPrice</span>
+                <span class="method-start">2482 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2485 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldFailWithNullSymbol</span>
+                <span class="method-start">2485 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2487 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldFailWithNullType</span>
+                <span class="method-start">2487 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2488 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldGetState</span>
+                <span class="method-start">2493 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagasumali.stocks.domain.TradeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2495 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldGetState</span>
+                <span class="method-start">2495 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagasumali.stocks.repository.LocalStockRepositoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2498 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldDeleteFromRepository</span>
+                <span class="method-start">2575 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2583 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldFindAllInRepositoryFromSpec</span>
+                <span class="method-start">2584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldFindOneInRepositoryFromSpec</span>
+                <span class="method-start">2709 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2721 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldSaveDataToRepository</span>
+                <span class="method-start">2721 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagasumali.stocks.repository.LocalTradeRepositoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2723 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldDeleteFromRepository</span>
+                <span class="method-start">2727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2729 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldFindAllInRepositoryFromSpec</span>
+                <span class="method-start">2729 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2734 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldFindOneInRepositoryFromSpec</span>
+                <span class="method-start">2735 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2741 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldSaveDataToRepository</span>
+                <span class="method-start">2741 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagasumali.stocks.service.StockServiceImplTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2743 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldCalculateDividend</span>
+                <span class="method-start">2760 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">2775 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldCalculateGBCEAllSharesIndex</span>
+                <span class="method-start">2777 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">3431 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldCalculatePERatio</span>
+                <span class="method-start">3433 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">3435 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldCalculateStockPrice</span>
+                <span class="method-start">3437 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">3441 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldCalculateStockPriceFromPastMinutes</span>
+                <span class="method-start">3442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">3482 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldRecordStock</span>
+                <span class="method-start">3485 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">3490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldThrowExceptionWhenCalculatingDividendAndStockDoesNotExist</span>
+                <span class="method-start">3491 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">3495 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldThrowExceptionWhenCalculatingGBCEAsiAndCannotComputePrice</span>
+                <span class="method-start">3495 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">3499 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldThrowExceptionWhenCalculatingGBCEAsiAndNoStocksFound</span>
+                <span class="method-start">3500 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">3503 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldThrowExceptionWhenCalculatingPERatioAndStockDoesNotExist</span>
+                <span class="method-start">3504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">3505 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldThrowExceptionWhenCalculatingStockPriceAndNoTradesFound</span>
+                <span class="method-start">3507 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">3511 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldThrowExceptionWhenCalculatingStockPriceAndQuantitySumIsZero</span>
+                <span class="method-start">3512 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagasumali.stocks.service.TradeServiceImplTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupScenario</span>
+                <span class="method-start">3515 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shouldRecordStock</span>
+                <span class="method-start">3519 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagasumali.stocks.spec.StockSpecificationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shouldValidateSymbol</span>
+                <span class="method-start">3521 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nagasumali.stocks.spec.TradeSpecificationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shouldReturnTrueIfDateIntervalIsZero</span>
+                <span class="method-start">3522 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldValidateDateInterval</span>
+                <span class="method-start">3524 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shouldValidateStockSymbol</span>
+                <span class="method-start">3525 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

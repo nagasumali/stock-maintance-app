@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>StockConverter.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">stock-maintance-application</a> &gt; <a href="index.source.html" class="el_package">com.nagasumali.stocks.controller.converter</a> &gt; <span class="el_source">StockConverter.java</span></div><h1>StockConverter.java</h1><pre class="source lang-java linenums">package com.nagasumali.stocks.controller.converter;
+
+import com.nagasumali.stocks.controller.api.StockDto;
+import com.nagasumali.stocks.domain.Stock;
+import org.springframework.stereotype.Component;
+
+import java.util.function.Function;
+
+/**
+ * Converts a Stock from the internal domain into a Stock DTO.
+ */
+@Component
+<span class="fc" id="L13">public class StockConverter implements Function&lt;Stock, StockDto&gt; {</span>
+    @Override
+    public StockDto apply(Stock stock) {
+<span class="fc" id="L16">        StockDto stockDto = new StockDto();</span>
+
+<span class="fc" id="L18">        stockDto.setSymbol(stock.getSymbol());</span>
+<span class="fc" id="L19">        stockDto.setType(stock.getType().name());</span>
+<span class="fc" id="L20">        stockDto.setFixedDividend(stock.getFixedDividend());</span>
+<span class="fc" id="L21">        stockDto.setLastDividend(stock.getLastDividend());</span>
+<span class="fc" id="L22">        stockDto.setParValue(stock.getParValue());</span>
+<span class="fc" id="L23">        stockDto.setTickerPrice(stock.getTickerPrice());</span>
+
+<span class="fc" id="L25">        return stockDto;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>
